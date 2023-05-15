@@ -1,0 +1,7 @@
+https://www.thorandco.fr/?p=792
+
+git init
+git add . / git add nomFichier
+git commit -m "message"
+git remote add origin "github.com/your_repo.git" / lelienCopié
+git push -u origin master

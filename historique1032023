@@ -1,0 +1,74 @@
+    1  sudo apt-get update
+    2  sudo apt-get upgrade
+    3  sudo apt-get install geany
+    4  sudo snap install --classic code
+    5  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    6  sudo apt install ./google-chrome-stable_current_amd64.deb
+    7  sudo apt-get g++
+    8  sudo apt install codeblocks
+    9  sudo apt install gcc
+   10  sudo apt install clang
+   11  sudo apt-get install vlc -y
+   12  sudo apt-get install httrack webhttrack
+   13  sudo apt-get install zeal
+   14  sudo apt-get install gimp -y
+   15  sudo apt-get install apache2
+   16  sudo apt-get install php libapache2-mod-php
+   17  sudo apt-get install php-mysql mysql-server -y
+   18  sudo apt-get install phpmyadmin -y
+   19  sudo apt-get install nodejs npm
+   20  sudo chmod -R 777 /var/www
+   21  sudo apt-get install nodejs npm
+   22  curl -sS https://getcomposer.org/installer -o composer-setup.php HASH=`curl -sS https://composer.github.io/installer.sig`
+   23  curl -sS https://getcomposer.org/installer -o composer-setup.php
+   24  node -v
+   25  sudo apt install php-cli unzip
+   26  curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php
+   27  HASH=`curl -sS https://composer.github.io/installer.sig`
+   28  echo $HASH
+   29  php -r "if (hash_file('SHA384', '/tmp/composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+   30  sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
+   31  composer
+   32  java -version
+   33  sudo apt install openjdk-8-jdk
+   34  sudo snap install flutter --classic
+   35  flutter
+   36  flutter sdk-path
+   37  flutter --version
+   38  flutter doctor
+   39  export PATH="$PATH:/home/djibril/snap/flutter/common/flutter/bin"
+   40  echo $PATH
+   41  sudo snap install android-studio --classic
+   42  flutter doctor
+   43  sudo mysql
+   44  sudo snap install whatsie
+   45  history>historique1032023
+   46  sudo dpkg -i nomFichier
+   47  tar -xf
+   48  ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+   49  flush privileges;
+   50  Pour craker bootstrap studio
+   51  sudo dpkg -i Bootstrap\ Studio\ 4\ \(64bit\).deb
+   52  En cas d'erreur executer cette cmde et après rélancer installation
+   53  sudo apt --fix-broken install
+   54  sudo cp Documents/specialesvacancesenInformatique/app.asar /opt/bootstrapstudio/resources/
+   55  sudo apt-get purge bootstrapstudio
+   56  sudo apt remove nomFichier
+   57  sudo snap remove nomFichier
+   58  sudo snap install onlyoffice-desktopeditors ou
+   59  wget https://download.onlyoffice.com/install/desktop/editors/linux/onlyoffice-desktopeditors_amd64.deb && sudo apt install ./onlyoffice-desktopeditors_amd64.deb
+   60  sudo apt-get remove --purge libreoffice*
+   61  sudo apt-get clean   x
+   62  sudo apt-get autoremove
+   63  sudo apt install torbrowser-launcher
+   64  torbrowser-launcher //Pour lancer tor
+   65  sudo apt-get remove tor
+   66  sudo apt-get autoremove tor
+   67  sudo apt-get purge tor
+   68  sudo apt-get autoremove --purge tor
+   69  Pour fire la  bare de recherche puissant / les dependances
+   70  sudo apt install php-pdo-sqlite
+   71  sudo apt install php-sqlite3
+   72  composer require teamtnt/tntsearch
+
+
