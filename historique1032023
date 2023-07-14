@@ -70,5 +70,6 @@
    70  sudo apt install php-pdo-sqlite
    71  sudo apt install php-sqlite3
    72  composer require teamtnt/tntsearch
+   73  wget https://zoom.us/client/latest/zoom_amd64.deb
 
 
